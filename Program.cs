@@ -8,7 +8,7 @@ namespace Listproblem
 	{
 		public static void Main(string[] args)
 		{
-			List<int> Integers = new List<int> { -1, 1, -2, 2, -3, 3, -4, 4, -5, 5 };
+			List<int> Integers = new List<int> { -1, 1, -2, 2, -3, 3, -4, 4, -5, 5,6 };
 
 			Integers.RemoveAll(t => t < 0);
 
