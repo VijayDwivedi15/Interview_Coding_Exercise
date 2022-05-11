@@ -8,24 +8,24 @@ namespace Coding_Exercise_for_Interview
 {
     class Find_Missing_Number_from_Array
     {
-        public static void Main()
-        {
-            int[] arr = { 1, 2, 3, 4, 6, 7, 8, 9, 10 };
+        //public static void Main()
+        //{
+        //    int[] arr = { 1, 2, 3, 4, 6, 7, 8, 9, 10 };
 
-            int missingNumber, Totalsum;
+        //    int missingNumber, Totalsum;
 
-            Totalsum = (arr.Length + 1) * (arr.Length + 2) / 2;
+        //    Totalsum = (arr.Length + 1) * (arr.Length + 2) / 2;
 
 
-            foreach (int item in arr)
-            {
-                Totalsum = Totalsum - item;
-            }
-            missingNumber = Totalsum;
+        //    foreach (int item in arr)
+        //    {
+        //        Totalsum = Totalsum - item;
+        //    }
+        //    missingNumber = Totalsum;
 
-            Console.WriteLine("missing number  : {0}", missingNumber);
-            Console.ReadLine();
-        }
+        //    Console.WriteLine("missing number  : {0}", missingNumber);
+        //    Console.ReadLine();
+        //}
 
         
     }
